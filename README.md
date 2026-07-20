@@ -1,4 +1,4 @@
-# 🍽️ Optimizing In-App Promotions for a Food Delivery Platform | SQL
+# 🍽️ Food Delivery Platform In-App Promotions Analysis | SQL
 *Analyzing customer demand, restaurant performance, and cuisine popularity to support data-driven in-app promotion decisions.*
 
 <p align="center">
