@@ -61,6 +61,48 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
 
 2. ### 📈 Business Analysis
 
+<table>
+  <tr>
+    <th>Analysis</th>
+    <th>Key Questions</th>
+  </tr>
+
+  <tr>
+    <td><strong>👥 Customer Demand Analysis</strong></td>
+    <td>
+      <ul>
+        <li>Which restaurants receive the highest number of orders?</li>
+        <li>Which cuisine types are most popular among customers?</li>
+        <li>Which days of the week have the highest order volume?</li>
+        <li>What price ranges do customers prefer?</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>🍽️ Restaurant Performance Analysis</strong></td>
+    <td>
+      <ul>
+        <li>Which restaurants have the highest average customer ratings?</li>
+        <li>Which restaurants generate the highest average order value?</li>
+        <li>Which restaurants have the shortest average food preparation times?</li>
+        <li>Which restaurants have the shortest average delivery times?</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>🌮 Cuisine Performance Analysis</strong></td>
+    <td>
+      <ul>
+        <li>Which cuisine types have the highest average customer ratings?</li>
+        <li>Which cuisine types generate the highest average order value?</li>
+        <li>Which cuisine types have the shortest average food preparation times?</li>
+        <li>Which cuisine types have the shortest average delivery times?</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
    
 <br>
