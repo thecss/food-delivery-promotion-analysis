@@ -20,6 +20,10 @@ As a Data Analyst on the Growth Analytics team, I was tasked with analyzing Food
 <br>
 
 ## 📂 Dataset
+This project uses the **FoodHub Orders** dataset, containing customer food delivery orders placed through an online food delivery platform in New York City.
+
+**Key attributes:** Restaurant Name, Cuisine Type, Order Cost, Day of the Week, Customer Rating, Food Preparation Time, and Delivery Time.
+
 <br>
 
 ## 📊 Analysis Approach
