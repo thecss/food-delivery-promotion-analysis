@@ -27,6 +27,42 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
 <br>
 
 ## 📊 Analysis Approach
+
+1.  ### 🔍Exploratory Data Analysis (EDA)
+<table>
+  <tr>
+    <th>Analysis</th>
+    <th>Key Questions</th>
+  </tr>
+
+  <tr>
+    <td><strong>Data quality checks</strong></td>
+    <td>
+      <ul>
+        <li>Are there any missing or incomplete values?</li>
+        <li>Are there duplicate records or duplicate order IDs?</li>
+        <li>Are there invalid costs, preparation times, or delivery times?</li>
+        <li>How many orders were not rated by customers?</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Data exploration</strong></td>
+    <td>
+      <ul>
+        <li>What information does the dataset contain?</li>
+        <li>How many customers, restaurants, and cuisines are represented?</li>
+        <li>What categories and value ranges exist within the dataset?</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+2. ### 📈 Business Analysis
+
+
+   
 <br>
 
 ## 🔍 Key Findings
