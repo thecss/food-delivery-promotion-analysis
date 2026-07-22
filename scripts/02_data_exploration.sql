@@ -1,6 +1,6 @@
 /*
 =============================================================
-Dataset Exploration
+Data Exploration
 =============================================================
 Script Purpose:
     This script performs an initial exploration of the
