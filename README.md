@@ -5,6 +5,12 @@
 <img width="450" height="300" alt="project" src="https://github.com/user-attachments/assets/99f3ffd1-1ac6-4fc4-9e71-526cfdd56293" />
 </p> 
 
+> 📄 **Project at a glance**
+>
+> Read the **[Executive Summary](docs/Executive_Summary.md)** for a concise overview of the business problem, analysis, key findings, and recommendations.
+
+<br>
+
 ## 💼 Business Problem
 FoodHub is an online food delivery platform that connects customers with restaurants across New York City.
 
