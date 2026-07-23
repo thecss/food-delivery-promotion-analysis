@@ -63,18 +63,11 @@ SELECT
 FROM
     orders;
 
--- Summarize food preparation times.
-SELECT 
-    MIN(food_preparation_time) AS minimum_food_prep_time,
-    MAX(food_preparation_time) AS maximum_food_prep_time,
-    ROUND(AVG(food_preparation_time), 2) AS avg_food_prep_time
-FROM
-    orders;
-
--- Summarize delivery times.
-SELECT 
-    MIN(delivery_time) AS minimum_delivery_time,
-    MAX(delivery_time) AS maximum_delivery_time,
-    ROUND(AVG(delivery_time), 2) AS avg_delivery_time
-FROM
-    orders;
+-- Summarize order fulfillment times.
+-- Calculate the minimum, maximum, and average time taken
+-- from food preparation through delivery.
+SELECT
+    MIN(food_preparation_time + delivery_time) AS minimum_fulfillment_time,
+    MAX(food_preparation_time + delivery_time) AS maximum_fulfillment_time,
+    ROUND(AVG(food_preparation_time + delivery_time), 2) AS avg_fulfillment_time
+FROM orders;
