@@ -101,14 +101,14 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
 ## 🔍 Key Findings
 1. ### 🍽️ Restaurant Promotion Analysis
     *  **Shake Shack (219 orders), The Meatball Shop (132 orders), and Blue Ribbon Sushi (119 orders)** consistently attracted the highest customer demand while maintaining strong average ratings (4.22–4.51) and average order values of approximately $16.
-    *  **Blue Ribbon Sushi Bar & Grill, Five Guys Burgers and Fries, Sushi of Gari Tribeca** achieved customer ratings of 4.5+ despite moderate order volumes, indicating strong potential for targeted promotional campaigns.
+    *  **Blue Ribbon Sushi Bar & Grill, Five Guys Burgers and Fries, Sushi of Gari Tribeca** achieved customer ratings of 4.5+ despite moderate order volumes(24–44 orders), indicating strong potential for targeted promotional campaigns.
     *  Fulfillment times were consistent across restaurants, ranging from approximately 47 to 54 minutes. No significant operational differences were observed among restaurants with more than 10 orders.<br>
       
 <br>
 
 2. ### 🍣 Cuisine Promotion Analysis
    * **American, Japanese, and Italian** cuisines were the most popular choices among customers, receiving 584, 470, and 298 orders respectively. These cuisines also maintained strong customer ratings (4.30–4.37⭐) with an average order value of around $16.
-   * Some cuisines had strong customer satisfaction but lower demand. For example, **Indian (4.54⭐), Thai (4.67⭐), and Spanish (4.83⭐)** cuisines received excellent ratings but had moderate orders, showing potential opportunities to increase customer awareness.
+   * Some cuisines had strong customer satisfaction but lower demand. For example, **Indian (4.54⭐), Thai (4.67⭐), and Spanish (4.83⭐)** cuisines received excellent ratings but had moderate orders(12–73 orders), showing potential opportunities to increase customer awareness.
    * Customer preferences were similar across weekdays and weekends. **American, Japanese, and Italian** cuisines remained the top three choices on both days, suggesting consistent demand throughout the week.
      
 <br>
