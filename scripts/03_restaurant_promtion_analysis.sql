@@ -8,20 +8,21 @@ Script Purpose:
 
 Questions Answered:
     1. Which restaurants demonstrate strong customer demand, customer satisfaction, and revenue potential?
-    2. Which restaurants have longer fulfillment times that should be considered before launching in-app promotions?
+	2. Which highly rated restaurants with moderate order volumes are strong candidates for targeted in-app promotional campaigns?
+	3. Are there significant differences in fulfillment times across restaurants?
 
 Metrics Used:
-    • Total Orders
-    • Average Customer Rating
-    • Average Order Value
-    • Average Food Preparation Time
-    • Average Delivery Time
+    * Total Orders
+    * Average Customer Rating
+    * Average Order Value
+    * Average Food Preparation Time
+     Average Delivery Time
     • Average Total Fulfillment Time
 
 Notes:
-    • Average ratings exclude orders where the rating was 'Not given'.
-    • Restaurants with fewer than 10 orders are excluded from the fulfillment time analysis to ensure more reliable
-      comparisons.
+    * Average ratings exclude orders where the rating was 'Not given'.
+	* Restaurants with 10–50 orders and an average rating of 4.5 or higher are considered potential promotion opportunities.
+    * Fulfillment time is calculated as: Food Preparation Time + Delivery Time.
 */
 
 
@@ -70,9 +71,8 @@ ORDER BY total_orders DESC;
 
 
 
--- Identify restaurants with longer average fulfillment times to
--- support proactive customer communication before increasing
--- customer demand through in-app promotional campaigns.
+-- Analyze restaurant fulfillment times to evaluate whether
+-- operational differences exist before expanding promotions.
 SELECT 
     restaurant_name,
 	COUNT(*) AS total_orders,
