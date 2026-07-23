@@ -46,6 +46,30 @@ GROUP BY restaurant_name
 ORDER BY total_orders DESC;
 
 
+
+-- Identify highly rated restaurants with moderate order volumes
+-- to uncover opportunities for targeted in-app promotional campaigns.
+SELECT 
+    restaurant_name,
+    COUNT(*) AS total_orders,
+    ROUND(
+        AVG(
+            CASE
+                WHEN rating <> 'Not given'
+                THEN CAST(rating AS DECIMAL(2,1))
+            END
+        ), 2
+    ) AS avg_rating,
+    ROUND(AVG(cost), 2) AS avg_order_value  
+FROM
+    orders
+GROUP BY restaurant_name
+HAVING COUNT(*) BETWEEN 10 AND 50
+    AND avg_rating >= 4.5
+ORDER BY total_orders DESC;
+
+
+
 -- Identify restaurants with longer average fulfillment times to
 -- support proactive customer communication before increasing
 -- customer demand through in-app promotional campaigns.
