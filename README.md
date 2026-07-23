@@ -70,9 +70,11 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
 <tr>
     <td><strong>Restaurant Promotion Analysis</strong></td>
     <td>
-      • Which restaurants demonstrate strong customer demand, customer satisfaction, and revenue potential?<br>
-      • Which highly rated restaurants with moderate order volumes are strong candidates for targeted in-app promotional campaigns?<br>
-      • Which restaurants have longer fulfillment times that should be considered before launching in-app promotional campaigns?
+       <ul>
+       <li>Which restaurants demonstrate strong customer demand, customer satisfaction, and revenue potential?</li>
+       <li> Which highly rated restaurants with moderate order volumes are strong candidates for targeted in-app promotional campaigns?</li>
+       <li> Are fulfillment times consistent across restaurants, or are there operational differences to consider?</li>
+         </ul>
     </td>
   </tr>
   <tr>
@@ -92,10 +94,19 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
 <br>
 
 ## 🔍 Key Findings
+1. ### 🍽️ Restaurant Promotion Analysis
+    *  **Shake Shack (219 orders), The Meatball Shop (132 orders), and Blue Ribbon Sushi (119 orders)** consistently attracted the highest customer demand while maintaining **strong average ratings (4.22–4.51)** and **average order values of approximately $16**.
+    *  **Blue Ribbon Sushi Bar & Grill, Five Guys Burgers and Fries, Sushi of Gari Tribeca** achieved customer ratings of 4.5+ despite moderate order volumes, indicating strong potential for targeted promotional campaigns.
+    *  Fulfillment times were consistent across restaurants, ranging from approximately 47 to 54 minutes. No significant operational differences were observed among restaurants with more than 10 orders.
+
+
+2. ### 🍣 Cuisine Promotion Analysis
 <br>
 
 ## ✅ Recommendations
-
+  1. Feature high-performing restaurants in promotional placements to maximize customer engagement and drive order volume from restaurants with proven demand.
+  2. Increase visibility for highly rated restaurants with moderate order volumes to encourage customer discovery and support growth opportunities.
+     
 
 <br><br>
 *Thanks for reading! If you found this project interesting, feel free to ⭐ the repository or explore my other projects.*
