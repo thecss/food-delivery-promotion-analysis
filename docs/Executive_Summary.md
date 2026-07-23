@@ -13,6 +13,6 @@ Using 1,898 customer orders, restaurant and cuisine performance were analyzed ba
 
 
 ### Recommendations
-* **Sustain Investment in Top Performers**: Continue prioritizing high-performing restaurants and cuisines (e.g., American, Japanese, Italian) in high-visibility placements such as the homepage and featured sections.
-* **Increase Visibility for High-Potential Option**s: Use targeted promotions — such as limited-time offers or personalized recommendations — to build awareness for highly-rated restaurants and cuisines with lower order volumes, including Thai, Spanish, and Indian.
-* **Apply a Consistent Weekly Strategy**: Since ordering patterns don't vary meaningfully by day, a single promotional approach can be applied throughout the week rather than adjusting by day.
+1. Sustain investment in top performers — keep high-performing restaurants and cuisines (Shake Shack, The Meatball Shop, Blue Ribbon Sushi; American, Japanese, Italian) in high-visibility placements.
+2. Boost visibility for high-potential options — use targeted promotions to grow demand for highly-rated but under-ordered restaurants and cuisines (e.g., Five Guys, Sushi of Gari Tribeca; Thai, Spanish, Indian).
+3. Apply a consistent weekly strategy — since ordering patterns don't vary meaningfully by day, one promotional approach works across the week.
