@@ -1,4 +1,4 @@
-# 🍽️ Food Delivery Platform In-App Promotions Analysis | SQL
+# 🍽️ FoodHub In-App Promotions Analysis| SQL
 *Analyzing customer demand, restaurant performance, and cuisine popularity to support data-driven in-app promotion decisions.*
 
 <p align="center">
@@ -68,7 +68,7 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
   </tr>
 
 <tr>
-    <td><strong>Restaurant Promotion Analysis</strong></td>
+    <td><strong>Restaurant Performance Analysis</strong></td>
     <td>
        <ul>
        <li>Which restaurants demonstrate strong customer demand, customer satisfaction, and revenue potential?</li>
@@ -78,13 +78,12 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
     </td>
   </tr>
   <tr>
-    <td><strong>🌮 Cuisine Performance Analysis</strong></td>
+    <td><strong>Cuisine Performance Analysis</strong></td>
     <td>
       <ul>
-        <li>Which cuisine types have the highest average customer ratings?</li>
-        <li>Which cuisine types generate the highest average order value?</li>
-        <li>Which cuisine types have the shortest average food preparation times?</li>
-        <li>Which cuisine types have the shortest average delivery times?</li>
+        <li>Which cuisines generate the highest customer demand, satisfaction, and average order value?</li>
+        <li>Which highly rated cuisines with moderate order volumes present growth opportunities?</li>
+        <li>Do customer cuisine preferences differ between weekdays and weekends?</li>
       </ul>
     </td>
   </tr>
@@ -95,18 +94,25 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
 
 ## 🔍 Key Findings
 1. ### 🍽️ Restaurant Promotion Analysis
-    *  **Shake Shack (219 orders), The Meatball Shop (132 orders), and Blue Ribbon Sushi (119 orders)** consistently attracted the highest customer demand while maintaining **strong average ratings (4.22–4.51)** and **average order values of approximately $16**.
+    *  **Shake Shack (219 orders), The Meatball Shop (132 orders), and Blue Ribbon Sushi (119 orders)** consistently attracted the highest customer demand while maintaining strong average ratings (4.22–4.51) and average order values of approximately $16.
     *  **Blue Ribbon Sushi Bar & Grill, Five Guys Burgers and Fries, Sushi of Gari Tribeca** achieved customer ratings of 4.5+ despite moderate order volumes, indicating strong potential for targeted promotional campaigns.
-    *  Fulfillment times were consistent across restaurants, ranging from approximately 47 to 54 minutes. No significant operational differences were observed among restaurants with more than 10 orders.
-
+    *  Fulfillment times were consistent across restaurants, ranging from approximately 47 to 54 minutes. No significant operational differences were observed among restaurants with more than 10 orders.<br>
+      
+<br>
 
 2. ### 🍣 Cuisine Promotion Analysis
+   * **American, Japanese, and Italian** cuisines were the most popular choices among customers, receiving 584, 470, and 298 orders respectively. These cuisines also maintained strong customer ratings (4.30–4.37⭐) with an average order value of around $16.
+   * Some cuisines had strong customer satisfaction but lower demand. For example, **Indian (4.54⭐), Thai (4.67⭐), and Spanish (4.83⭐)** cuisines received excellent ratings but had moderate orders, showing potential opportunities to increase customer awareness.
+   * Customer preferences were similar across weekdays and weekends. **American, Japanese, and Italian** cuisines remained the top three choices on both days, suggesting consistent demand throughout the week.
+     
 <br>
 
 ## ✅ Recommendations
-  1. Feature high-performing restaurants in promotional placements to maximize customer engagement and drive order volume from restaurants with proven demand.
-  2. Increase visibility for highly rated restaurants with moderate order volumes to encourage customer discovery and support growth opportunities.
-     
+  1. Feature high-performing restaurants(such as Shake Shack, The Meatball Shop, and Blue Ribbon Sushi) in promotional placements to maximize customer engagement and order volume.
+  2. Increase visibility for highly rated restaurants with moderate demand(such as Blue Ribbon Sushi Bar & Grill, Five Guys Burgers and Fries, Sushi of Gari Tribeca) to encourage customer discovery and support growth opportunities.
+  3. Prioritize popular cuisine categories (American, Japanese, and Italian) in platform-wide promotions, as they consistently drive the highest customer demand.
+  4. Promote targeted campaigns for highly rated cuisines (such as Indian, Thai, and Spanish) to increase awareness and expand their customer base.
+  5. Maintain a consistent cuisine promotion strategy throughout the week, as customer preferences remain largely stable across weekdays and weekends.
 
 <br><br>
 *Thanks for reading! If you found this project interesting, feel free to ⭐ the repository or explore my other projects.*
