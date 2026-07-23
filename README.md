@@ -67,30 +67,14 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
     <th>Key Questions</th>
   </tr>
 
-  <tr>
-    <td><strong>👥 Customer Demand Analysis</strong></td>
+<tr>
+    <td><strong>Restaurant Promotion Analysis</strong></td>
     <td>
-      <ul>
-        <li>Which restaurants receive the highest number of orders?</li>
-        <li>Which cuisine types are most popular among customers?</li>
-        <li>Which days of the week have the highest order volume?</li>
-        <li>What price ranges do customers prefer?</li>
-      </ul>
+      • Which restaurants demonstrate strong customer demand, customer satisfaction, and revenue potential?<br>
+      • Which highly rated restaurants with moderate order volumes are strong candidates for targeted in-app promotional campaigns?<br>
+      • Which restaurants have longer fulfillment times that should be considered before launching in-app promotional campaigns?
     </td>
   </tr>
-
-  <tr>
-    <td><strong>🍽️ Restaurant Performance Analysis</strong></td>
-    <td>
-      <ul>
-        <li>Which restaurants have the highest average customer ratings?</li>
-        <li>Which restaurants generate the highest average order value?</li>
-        <li>Which restaurants have the shortest average food preparation times?</li>
-        <li>Which restaurants have the shortest average delivery times?</li>
-      </ul>
-    </td>
-  </tr>
-
   <tr>
     <td><strong>🌮 Cuisine Performance Analysis</strong></td>
     <td>
