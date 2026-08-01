@@ -114,11 +114,18 @@ This project uses the **FoodHub Orders** dataset, containing customer food deliv
 <br>
 
 ## ✅ Recommendations
-  1. Feature high-performing restaurants(such as Shake Shack, The Meatball Shop, and Blue Ribbon Sushi) in promotional placements to maximize customer engagement and order volume.
-  2. Increase visibility for highly rated restaurants with moderate demand(such as Blue Ribbon Sushi Bar & Grill, Five Guys Burgers and Fries, Sushi of Gari Tribeca) to encourage customer discovery and support growth opportunities.
-  3. Prioritize popular cuisine categories (American, Japanese, and Italian) in platform-wide promotions, as they consistently drive the highest customer demand.
-  4. Promote targeted campaigns for highly rated cuisines (such as Indian, Thai, and Spanish) to increase awareness and expand their customer base.
-  5. Maintain a consistent cuisine promotion strategy throughout the week, as customer preferences remain largely stable across weekdays and weekends.
+  1. **Keep promoting the restaurants that are already doing well.** Shake Shack, The Meatball Shop, and Blue Ribbon Sushi get the most orders and have good ratings, so it makes sense to keep featuring them in the app.
+  2. **Give more visibility to restaurants with great ratings but fewer orders.** Blue Ribbon Sushi Bar & Grill, Five Guys, and Sushi of Gari Tribeca have ratings of 4.5+ but don't get ordered from as much. They might just need more exposure in the app for customers to notice them.
+  3. **Focus promotions on the most popular cuisines.** American, Japanese, and Italian food make up most of the orders, so these are safe choices to highlight in general promotions.
+  4. **Highlight cuisines that customers love but don't order as often.** Indian, Thai, and Spanish food all have really high ratings (4.5+) even though they get fewer orders. Customers who try them seem to like them a lot so the app just needs to get more people to try them.
+  5. **No need to change promotions based on the day of the week.** Customers order pretty similar food whether it's a weekday or weekend, so one promotion plan can work all week instead of needing separate weekday/weekend strategies.
+
+<br>
+
+## ⚠️ Limitations
+  1. **No dates, only days of the week.** I can see orders happened more on, say, a Saturday, but I can't tell if demand is growing over time or if this was just a busy month.
+  2. **No cost or profit info.** I only have order value, not how much profit the restaurant/platform actually makes. A restaurant with big orders isn't necessarily the most profitable one to promote.
+  3. **Small sample sizes for some restaurants.** The "hidden gem" restaurants only had a few dozen orders. A couple of bad days could easily change their rating, so I wouldn't fully trust that number yet.
 
 <br><br>
 *Thanks for reading! If you found this project interesting, feel free to ⭐ the repository or explore my other projects.*
